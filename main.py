@@ -52,10 +52,10 @@ diet_validator_agent = Agent(
 )
 
 def main():
-    query = "I am 42 years old, 78 kg, 170 cm tall male, please suggest Keto diet plan for 1 day that is only vegetarian options (no meat, no fish, no eggs)"
+    query = "I am 9 years old, I am male, average height and weight for my age, I want to gain strength and muscle, please suggest a diet plan for 1 day that is only vegetarian options (no meat, no fish, no eggs)only 6 unique items in a day and I can repeat the items unlimited times in a day"
     input_items: list[TResponseInputItem] = [{"content" : msg, "role" : "user"} for msg in [query]]
     nutritionist_output: NutritionistOutput | None = None
-    max_tries = 3
+    max_tries = 3 
     with trace("LLM as a judge"):
         while True:
             nutritionist = asyncio.run(Runner.run(nutritionist_agent, input_items))

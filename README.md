@@ -16,3 +16,45 @@ OPENAI_API_KEY is not set, skipping trace export
 Diet Validator output:  feedback="This vegetarian keto meal plan aligns with keto principles by prioritizing high fats, moderate proteins, and low carbohydrates. It includes a variety of nutrient-dense foods and maintains a good balance of macro nutrients necessary for ketosis while respecting dietary preferences.* However, as with any diet, it's advised to consult with a healthcare provider or a registered dietitian to ensure all nutritional needs are met and that it suits your individual health conditions and lifestyle." plan_approved=True  
 Diet plan approved!  
 ```
+
+Second query : 
+> "I am 9 years old, I am male, average height and weight for my age, I want to gain strength and muscle, please suggest a diet plan for 1 day that is only vegetarian options (no meat, no fish, no eggs)only 6 unique items in a day and I can repeat the items unlimited times in a day"
+
+Sample output : 
+```markdown
+### Breakfast 
+- **Oatmeal with Almond Milk**
+  - Ingredients: Rolled oats, almond milk, banana slices, chia seeds, and a handful of almonds.
+  - Benefits: Provides energy, fiber, and protein.
+
+### Morning Snack
+- **Smoothie with Nut Butter**
+  - Ingredients: Spinach, banana, almond milk, a tablespoon of peanut or almond butter.
+  - Benefits: Packed with proteins, healthy fats, vitamins, and minerals.
+
+
+### Lunch
+- **Quinoa and Chickpea Salad**
+  - Ingredients: Cooked quinoa, canned chickpeas, cherry tomatoes, cucumber, olive oil, lemon juice, salt, and pepper.
+  - Benefits: Rich in fiber, proteins, and essential vitamins and minerals.
+
+
+### Afternoon Snack
+- **Greek Yogurt with Granola**
+  - Ingredients: Plain Greek yogurt, a sprinkle of granola, and mixed berries.
+  - Benefits: Excellent source of protein, calcium, and probiotics.
+
+
+### Dinner
+- **Stir-fried Tofu and Vegetables**
+  - Ingredients: Firm tofu, broccoli, bell peppers, carrots, soy sauce, and a hint of ginger.
+  - Benefits: High in protein, vitamins, and antioxidants.
+
+
+### Evening Snack
+- **Nut and Seed Mix**
+  - Ingredients: Almonds, walnuts, sunflower seeds, pumpkin seeds, and raisins.
+   - Benefits: Rich in protein, healthy fats, and iron.
+
+Feel free to repeat any of these meals throughout the day. Adjust portion sizes to feel full and satisfied. Always stay hydrated with water or milk.
+```
